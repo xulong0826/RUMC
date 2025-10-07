@@ -1,16 +1,13 @@
-# RUMC
+# TenGAN
 
-A PyTorch implementation of "RUMC: Reward-Guided Monte Carlo Sampling with Uncertainty for De Novo Molecular Generation."
-The paper has been accepted by NTCI 2025. ![Overview of RUMC](https://github.com/xulong0826/RUMC/RUMC_overview.png)
-
-# Acknowledgements
-We thank the authors of TenGAN: Pure Transformer Encoders Make an Efficient Discrete GAN for De Novo Molecular Generation for releasing their code. The code in this repository is based on their source code release [TenGAN](https://github.com/naruto7283/TenGAN). If you find this code useful, please consider citing their work.
+A PyTorch implementation of "TenGAN: Pure Transformer Encoders Make an Efficient Discrete GAN for De Novo Molecular Generation."
+The paper has been accepted by [AISTATS 2024](https://). ![Overview of TenGAN](https://github.com/naruto7283/TenGAN/blob/main/tengan_overview.png)
 
 ## Installation
 Execute the following commands:
 ```
-$ conda env create -n rumc -f env.yml
-$ source activate rumc
+$ conda env create -n tengan_env -f env.yml
+$ source activate tengan_env
 ```
 
 ## File Description
@@ -43,10 +40,13 @@ $ source activate rumc
  
 ## Experimental Reproduction
 
-```
+  - RUMC on the ZINC dataset with drug-likeness as the optimized property:
+  ```
+parser.add_argument('--properties', type=str, default='druglikeness', help='the chemical property for molecular generation (druglikeness, solubility, or synthesizability)')
+
   $ python 1qm9.py
 
   $ python 1zinc.py
 
   $ python 1ablation.py
-```
+  ```
