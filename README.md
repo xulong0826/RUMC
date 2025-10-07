@@ -1,6 +1,5 @@
 # RUMC
-
-A PyTorch implementation of "RUMC: Reward-Guided Monte Carlo Sampling with Uncertainty for De Novo Molecular Generation."
+Official implementation of "RUMC: Reward-Guided Monte Carlo Sampling with Uncertainty for De Novo Molecular Generation".
 The paper has been accepted by NTCI 2025. 
 
 # Acknowledgements
