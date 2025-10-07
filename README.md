@@ -4,7 +4,7 @@ A PyTorch implementation of "RUMC: Reward-Guided Monte Carlo Sampling with Uncer
 The paper has been accepted by NTCI 2025. 
 
 # Acknowledgements
-We thank the authors of TenGAN: Pure Transformer Encoders Make an Efficient Discrete GAN for De Novo Molecular Generation for releasing their code. The code in this repository is based on their source code release [TenGAN](https://github.com/naruto7283/TenGAN). If you find this code useful, please consider citing their work.
+We thank the authors of TenGAN: Pure Transformer Encoders Make an Efficient Discrete GAN for De Novo Molecular Generation for releasing their [code](https://github.com/naruto7283/TenGAN). The code in this repository is based on their source code release TenGAN. If you find this code useful, please consider citing their work.
 
 # Framework
 ![Overview of RUMC](https://github.com/xulong0826/RUMC/blob/main/RUMC_overview.png)
