@@ -1,5 +1,5 @@
 # RUMC
-Official implementation of "RUMC: Reward-Guided Monte Carlo Sampling with Uncertainty for De Novo Molecular Generation".
+Official implementation of "RUMC: Reward-Guided Monte Carlo Sampling with Uncertainty for De Novo Molecular Generation(https://doi.org/10.1109/NTCI67886.2025.11308458)".
 The paper has been accepted by NTCI 2025. 
 
 # Acknowledgements
