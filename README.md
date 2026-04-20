@@ -46,9 +46,24 @@ $ source activate rumc
 ## Experimental Reproduction
 
 ```
-  $ python 1qm9.py
+  $ python main.py
+```
 
-  $ python 1zinc.py
+## Citation
+```
+L. Xu, Y. Chen and F. Liu (2025) RUMC: Reward-Guided Monte Carlo Sampling with Uncertainty Awareness for De Novo Molecular Generation. NTCI 2025.
+```
 
-  $ python 1ablation.py
+BibTeX format:
+```
+@INPROCEEDINGS{11308458,
+author={Xu, Long and Chen, Yongcai and Liu, Fengshuo},
+booktitle={2025 International Conference on New Trends in Computational Intelligence (NTCI)}, 
+title={RUMC: Reward-Guided Monte Carlo Sampling with Uncertainty Awareness for De Novo Molecular Generation}, 
+year={2025},
+volume={},
+number={},
+pages={54-58},
+keywords={Monte Carlo methods;Uncertainty;Computational modeling;Diversity reception;Reinforcement learning;Transformers;Drug discovery;Chemicals;Optimization;Zinc;de novo molecular generation;reward-guided;reward buffer;uncertainty sampling;Monte Carlo Dropout},
+doi={10.1109/NTCI67886.2025.11308458}}
 ```
